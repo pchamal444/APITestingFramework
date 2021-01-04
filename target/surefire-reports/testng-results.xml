@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-04T11:20:11 IST" name="Suite" finished-at="2021-01-04T11:20:16 IST" duration-ms="4485">
+    <groups>
+    </groups>
+    <test started-at="2021-01-04T11:20:11 IST" name="CreateCustomerAPITest" finished-at="2021-01-04T11:20:14 IST" duration-ms="3052">
+      <class name="com.w2a.APITestingFramework.testcases.CreateCustomerTest">
+        <test-method signature="InValidCustomerAPIWithVSK(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFramework.testcases.CreateCustomerTest@192d74fb]" started-at="2021-01-04T11:20:11 IST" name="InValidCustomerAPIWithVSK" data-provider="data" finished-at="2021-01-04T11:20:13 IST" duration-ms="2158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=Aashritha@gmail.com, name=FTAashritha Chamala, description=Learning how to code fast}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidCustomerAPIWithVSK -->
+        <test-method signature="InValidCustomerAPIWithVSK(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFramework.testcases.CreateCustomerTest@192d74fb]" started-at="2021-01-04T11:20:11 IST" name="InValidCustomerAPIWithVSK" data-provider="data" finished-at="2021-01-04T11:20:13 IST" duration-ms="2158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=chamala@gmail.com, name=FTPrudhvi Chamala, description=Learning how to code fast}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidCustomerAPIWithVSK -->
+        <test-method signature="validateCustomerAPIWithVSK(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFramework.testcases.CreateCustomerTest@192d74fb]" started-at="2021-01-04T11:20:13 IST" name="validateCustomerAPIWithVSK" data-provider="data" finished-at="2021-01-04T11:20:14 IST" duration-ms="829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=chamala@gmail.com, name=FTPrudhvi Chamala, description=Learning how to code fast}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerAPIWithVSK -->
+        <test-method signature="validateCustomerAPIWithVSK(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFramework.testcases.CreateCustomerTest@192d74fb]" started-at="2021-01-04T11:20:13 IST" name="validateCustomerAPIWithVSK" data-provider="data" finished-at="2021-01-04T11:20:14 IST" duration-ms="826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=Aashritha@gmail.com, name=FTAashritha Chamala, description=Learning how to code fast}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerAPIWithVSK -->
+        <test-method signature="validateCustomerAPIWithVSK(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFramework.testcases.CreateCustomerTest@192d74fb]" started-at="2021-01-04T11:20:13 IST" name="validateCustomerAPIWithVSK" data-provider="data" finished-at="2021-01-04T11:20:14 IST" duration-ms="827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=prathyusha@gmail.com, name=FTPrathtusha Chamala, description=Learning how to code fast}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerAPIWithVSK -->
+        <test-method signature="validateCustomerAPIWithVSK(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFramework.testcases.CreateCustomerTest@192d74fb]" started-at="2021-01-04T11:20:13 IST" name="validateCustomerAPIWithVSK" data-provider="data" finished-at="2021-01-04T11:20:14 IST" duration-ms="826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=Aadhya@gmail.com, name=FTAadhya Chamala, description=Learning how to code fast}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerAPIWithVSK -->
+      </class> <!-- com.w2a.APITestingFramework.testcases.CreateCustomerTest -->
+    </test> <!-- CreateCustomerAPITest -->
+    <test started-at="2021-01-04T11:20:15 IST" name="DeleteCustomerAPITest" finished-at="2021-01-04T11:20:16 IST" duration-ms="1089">
+      <class name="com.w2a.APITestingFramework.testcases.DeleteCustomerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.w2a.APITestingFramework.testcases.DeleteCustomerTest@4721d212]" started-at="2021-01-04T11:20:11 IST" name="setUp" finished-at="2021-01-04T11:20:11 IST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteCustomer(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFramework.testcases.DeleteCustomerTest@4721d212]" started-at="2021-01-04T11:20:15 IST" name="deleteCustomer" data-provider="data" finished-at="2021-01-04T11:20:16 IST" duration-ms="1073" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=cus_Igwg4CPswT3Tmx}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at com.w2a.APITestingFramework.testcases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="deleteCustomer(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFramework.testcases.DeleteCustomerTest@4721d212]" started-at="2021-01-04T11:20:15 IST" name="deleteCustomer" data-provider="data" finished-at="2021-01-04T11:20:16 IST" duration-ms="1071" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=cus_IgwgJFdRPGqaaq}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at com.w2a.APITestingFramework.testcases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="deleteCustomer(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFramework.testcases.DeleteCustomerTest@4721d212]" started-at="2021-01-04T11:20:15 IST" name="deleteCustomer" data-provider="data" finished-at="2021-01-04T11:20:16 IST" duration-ms="1071" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=cus_IgwguPTDdeGnd6}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at com.w2a.APITestingFramework.testcases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w2a.APITestingFramework.testcases.DeleteCustomerTest@4721d212]" started-at="2021-01-04T11:20:16 IST" name="tearDown" finished-at="2021-01-04T11:20:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.APITestingFramework.testcases.DeleteCustomerTest -->
+    </test> <!-- DeleteCustomerAPITest -->
+  </suite> <!-- Suite -->
+</testng-results>

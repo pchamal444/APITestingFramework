@@ -1,0 +1,14 @@
+com\w2a\APITestingFramework\listerners\ExtentManager.class
+com\w2a\APITestingFramework\utilities\MonitoringMail.class
+com\w2a\APITestingFramework\utilities\MonitoringMail$SMTPAuthenticator.class
+com\w2a\APITestingFramework\utilities\TestConfig.class
+com\w2a\APITestingFramework\utilities\ExcelReader.class
+com\w2a\APITestingFramework\utilities\MonitoringMail$1.class
+com\w2a\APITestingFramework\listerners\ExtentListeners.class
+com\w2a\APITestingFramework\APIs\DeleteCustomerAPI.class
+com\w2a\APITestingFramework\utilities\DataUtil.class
+com\w2a\APITestingFramework\testcases\DeleteCustomerTest.class
+com\w2a\APITestingFramework\utilities\TestUtil.class
+com\w2a\APITestingFramework\testcases\CreateCustomerTest.class
+com\w2a\APITestingFramework\setup\BaseTest.class
+com\w2a\APITestingFramework\APIs\CreateCustomerAPI.class
